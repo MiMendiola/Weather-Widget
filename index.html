@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Widget CSS</title>
+
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+<body>
+    <div class="weather-container">
+        <!-- current -->
+        <div class="current">
+            <div class="city">Vancouver</div>
+            <div class="day">Now</div>
+            <div class="row">
+                <div class="icon">
+                    <img src="./img/weather.png" width="128"  alt=""/>
+                </div>
+                <div class="info">
+                    <div class="temperature">
+                        <div class="temperature-now">20º</div>
+                        <div class="temperature-low">/10º</div>
+                    </div>
+                    <div class="status">Partially Cloudy</div>
+                </div>
+            </div>
+            <div class="more">
+                <!-- item -->
+                <div class="item">
+                    <div class="icon">
+                        <span class="iconify" data-icon="carbon:rain-drop" data-width="28" data-height="28"></span>
+                    </div>
+                    <div class="text">
+                        <div class="value">9 km/h</div>
+                        <div class="type">Wind</div>
+                    </div>
+                </div>
+                <!-- item 2 -->
+                <div class="item">
+                    <div class="icon">
+                        <span class="iconify" data-icon="akar-icons:air" data-width="28" data-height="28"></span>
+                    </div>
+                    <div class="text">
+                        <div class="value">93%</div>
+                        <div class="type">Changes of rain</div>
+                    </div>
+                </div>
+                <!-- item 3 -->
+                <div class="item">
+                    <div class="icon">
+                        <span class="iconify" data-icon="bx:water" data-width="28" data-height="28"></span>
+                    </div>
+                    <div class="text">
+                        <div class="value">31%</div>
+                        <div class="type">Humidity</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- list -->
+        <div class="list">
+            <!-- day 1 -->
+            <div class="day">
+                <div class="name">Mon</div>
+                <div class="weather">
+                    <div class="icon">
+                        <span class="iconify" data-icon="fluent:weather-cloudy-20-regular" data-width="32" data-height="32"></span>
+                    </div>
+                    <div class="status">Cloudy</div>
+                </div>
+                <div class="temperature">
+                    <div class="temperature-high">20º</div>
+                    <div class="temperature-low">15º</div>
+                </div>
+            </div>
+            <!-- day 2 -->
+            <div class="day">
+                <div class="name">Tue</div>
+                <div class="weather">
+                    <div class="icon">
+                        <span class="iconify" data-icon="ic:baseline-ac-unit" data-width="32" data-height="32"></span>
+                    </div>
+                    <div class="status">Snow</div>
+                </div>
+                <div class="temperature">
+                    <div class="temperature-high">5º</div>
+                    <div class="temperature-low">-15º</div>
+                </div>
+            </div>
+            <!-- day 3 -->
+            <div class="day">
+                <div class="name">Wen</div>
+                <div class="weather">
+                    <div class="icon">
+                        <span class="iconify" data-icon="fluent:weather-thunderstorm-48-regular" data-width="32" data-height="32"></span>
+                    </div>
+                    <div class="status">Thunderstorm</div>
+                </div>
+                <div class="temperature">
+                    <div class="temperature-high">12º</div>
+                    <div class="temperature-low">4º</div>
+                </div>
+            </div>
+            <!-- day 4 -->
+            <div class="day">
+                <div class="name">Thu</div>
+                <div class="weather">
+                    <div class="icon">
+                        <span class="iconify" data-icon="ion:partly-sunny-outline" data-width="32" data-height="32"></span>
+                    </div>
+                    <div class="status">Partially Sunny</div>
+                </div>
+                <div class="temperature">
+                    <div class="temperature-high">22º</div>
+                    <div class="temperature-low">13º</div>
+                </div>
+            </div>
+            <!-- day 5 -->
+            <div class="day">
+                <div class="name">Fri</div>
+                <div class="weather">
+                    <div class="icon">
+                        <span class="iconify" data-icon="ep:sunny" data-width="32" data-height="32"></span>
+                    </div>
+                    <div class="status">Sunny</div>
+                </div>
+                <div class="temperature">
+                    <div class="temperature-high">26º</div>
+                    <div class="temperature-low">18º</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.iconify.design/3/3.0.0/iconify.min.js"></script>
+</body>
+</html>
